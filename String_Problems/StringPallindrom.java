@@ -6,7 +6,7 @@
         while ( firstIndex <= lastIndex ) {
             if ( str.charAt ( firstIndex ) == str.charAt( lastIndex  ) ) {
                 firstIndex ++;
-                lastIndex--;
+                lastIndex --;
                 continue;
             }
             else
